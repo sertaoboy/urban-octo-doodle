@@ -35,3 +35,6 @@
                 // organiza o array de acordo com a classificacao Unicode, onde os numeros vem antes das letras, porem nao funciona corretamente para numeros, onde temos que definir uma funcao que ira auxiliar o comando.
             splice();
                 // consegue remover, um ou mais elementos consecutivos caso o segundo parametro tenha um valor > 0, e incluir um ou mais elementos a partir de um indice escolhido.
+                
+ /////////////////////////////////////////////////////////
+ // Para consultar a documentacao de arrays em caso de duvida : https://developer.mozilla.org/pt-BR/         
