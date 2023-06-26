@@ -1,0 +1,4 @@
+// Separar um array em partes com slice() (utilizamos para obter dois novos arrays a partir de um).
+// Remover e incluir novos elementos em um array com splice(); sendo que esse método permite remover elementos de qualquer posição do array. Além disso, podemos incluir um novo elemento no local dos removidos.
+// Concatenar elementos em um único array com concat(); sendo que essa é uma forma facilitada de juntar dois arrays.
+// Trabalhar com arrays de duas dimensões. Vimos que uma lista também pode guardar outras listas! Para acessar elementos das listas mais internas, devemos informar primeiro os índices das mais externas e depois os das mais internas, como por exemplo com funcionarios[0][2].
