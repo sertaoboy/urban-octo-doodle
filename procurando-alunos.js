@@ -21,15 +21,12 @@ const listaDeAlunosEMedias = [alunos, media];
 // Aprimorando o codigo -- tornando mais legivel
 function exibeNomeENota(nome) {
     if (listaDeAlunosEMedias[0].includes(nome)) {
-        const alunos = listaDeAlunosEMedias[0];
-        const media = listaDeAlunosEMedias[1];
-
-        const indice = alunos.indexOf(nome);
-        const mediaDoAluno = media[indice];
+        const indice = listaDeAlunosEMedias[0].indexOf(nome);
+        const mediaDoAluno = listaDeAlunosEMedias[1][indice];
 
         console.log(`${nome} tem media ${mediaDoAluno}.`); // obs: houve um erro de logica! eu havia colocado na template que se refere a media a constante "media"; apos isso ele retornava toda array de media: [10, 8, 7.5, 9] ao inves do indice especifico do aluno especifico. Apos trocar por  "mediaDoAluno", eu consegui!
     } else {
         console.log('aluno nao encontrado.');
     }
 }
-exibeNomeENota('Ana');
+exibeNomeENota('raul');
