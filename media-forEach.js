@@ -3,10 +3,10 @@
 // 10,6.5,8 e 7.5
 
 const notas = [10, 6.5, 8, 7.5];
-let somaDasNotas = 0;
+let somaDasNotas = 0; // por que 0? porque se nao tiver nenhum valor, o resultado da soma sera 0
 
 notas.forEach(function(nota) { // reparar que a funcao forEach recebe uma funcao como parametro (quando uma funcao e parametro de outra, ela e chamada de callback); essa funcao e chamada de funcao anonima; ela e uma funcao que sera chamada a cada interacao do forEach(laco de repeticao), mais especificamente para cada elemento do array de "notas"
-    somaDasNotas += nota;
+    somaDasNotas += nota; // somaDasNotas = somaDasNotas + nota;
 });
 
 const media = somaDasNotas / notas.length;

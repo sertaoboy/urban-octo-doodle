@@ -1,6 +1,6 @@
 const notas = [10, 6.5, 8, 7.5];
 
-let somaDasNotas = 0;
+let somaDasNotas = 0;   // o let e necessario aqui, pois a variavel sera alterada dentro do for of  
 
 for (let nota of notas) {
     somaDasNotas += nota;
